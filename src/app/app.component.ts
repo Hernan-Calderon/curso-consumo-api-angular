@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'curso-componentes';
+  padre:string="https://www.w3schools.com/howto/img_avatar.png";
+
+
+  onLoaded(event:string){
+    console.log("Log padre: ",event);
+  }
 }
